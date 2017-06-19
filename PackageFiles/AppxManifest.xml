@@ -21,7 +21,7 @@
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
   <Applications>
-    <Application Id="SwingSet" Executable="SwingSet.exe" EntryPoint="Windows.FullTrustApplication">
+    <Application Id="SwingSet" Executable="app.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements DisplayName="SwingSet" Description="SwingSet" BackgroundColor="transparent" Square150x150Logo="Assets\AppMedTile.png" Square44x44Logo="Assets\AppList.png">
         <uap:DefaultTile Wide310x150Logo="Assets\AppWideTile.png" Square310x310Logo="Assets\AppLargeTile.png" Square71x71Logo="Assets\AppSmallTile.png">
           <uap:ShowNameOnTiles>

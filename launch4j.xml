@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>true</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>SwingSet2.jar</jar>
-  <outfile>SwingSet\PackageFiles\SwingSet.exe</outfile>
+  <jar>app.jar</jar>
+  <outfile>PackageFiles\app.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
