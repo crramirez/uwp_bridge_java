@@ -5,7 +5,9 @@ Skeleton for packing Java applications for publishing them on Windows Store
 
 Every desktop application converted using the Desktop App Converter is placed in a directory with some extra files and an **AppxManifest.xml** which describe its content.
 
-This project is the result of running the Desktop App Converter to obtain a runnable Java application on Windows Store. Also it includes an executable made with launch4j to run the included java application.
+This project is the result of running the Desktop App Converter to obtain a runnable Java application on Windows Store. Also it includes an executable made with launch4j to run the included java application. 
+
+You won't have to run the Desktop App Converter. Also you don't need to have an installer for your Java application.
 
 # Quick Start
 
