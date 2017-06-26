@@ -18,4 +18,10 @@ This project includes the example included with the JDK called SwingSet2. Follow
 3. If you have Cygwin or Windows Subsystem for Linux (WSL) you can run one of the two scripts included: **createAppx-cyg.sh** or **createAppx.sh** respectively. First change the environment variable **WINDOWSSDK** with the installation path of your SDK.
 4. If you don't want or can't run the script, do the following steps.
 5. Expand the **jre-8u###-windows-x64.tar.gz** in the **PackageFiles** subdirectory and rename the resulting folder to **jre**
-6. 
+6. Call _yourwindows10sdkhome_\ `makeappx.exe" pack  /d PackageFiles /p SwingSet.appx /o /v /l`
+7. Call _yourwindows10sdkhome_\ `signtool.exe" sign /a /fd SHA256 /f auto-generated.pfx /p 123456  SwingSet.appx`
+
+If someone can contribute with a .bat or powershell script whould be greatly appreciated.
+## Run the resulting package
+1. Double-click the auto-generated.cer file to install the certificate.
+![alt text](https://docs.microsoft.com/en-us/windows/uwp/porting/images/desktop-to-uwp/generated-cert-file.png "Cert file")
