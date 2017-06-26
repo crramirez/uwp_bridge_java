@@ -23,5 +23,18 @@ This project includes the example included with the JDK called SwingSet2. Follow
 
 If someone can contribute with a .bat or powershell script whould be greatly appreciated.
 ## Run the resulting package
-1. Double-click the auto-generated.cer file to install the certificate.
+1. Double-click the **auto-generated.cer** file to install the certificate.
+
 ![alt text](https://docs.microsoft.com/en-us/windows/uwp/porting/images/desktop-to-uwp/generated-cert-file.png "Cert file")
+
+2. In the **Certificate** dialog box, choose the **Install Certificate** button.
+3. In the **Certificate Import Wizard**, install the certificate onto the **Local Machine**, and place the certificate into the **Trusted People** certificate store.
+
+![alt text](https://docs.microsoft.com/en-us/windows/uwp/porting/images/desktop-to-uwp/trusted-people-store.png "Trusted People Store")
+
+4. In root folder of the packaged app, double click the Windows app package file (SwingSet.appx).
+5. Install the app, by choosing the Install button.
+
+![alt text](https://docs.microsoft.com/en-us/windows/uwp/porting/images/desktop-to-uwp/install.png "Install button")
+
+
