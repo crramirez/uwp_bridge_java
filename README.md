@@ -9,6 +9,8 @@ This project is the result of running the Desktop App Converter to obtain a runn
 
 You won't have to run the Desktop App Converter. Also you don't need to have an installer for your Java application.
 
+This project and the following steps are completely based on this documentation: https://docs.microsoft.com/en-us/windows/uwp/porting/. Please read it and if you have any doubt about the material in this page go there.
+
 # Quick Start
 
 This project includes the example included with the JDK called SwingSet2. Follow these intructions to pack SwingeSet2 as a Windows 10 Application.
