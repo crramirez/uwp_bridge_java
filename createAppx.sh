@@ -2,8 +2,10 @@
 
 cd "$(dirname "$0")"
 
-tar -xvzf jre-8u*-windows-x64.tar.gz
-mv jre1.8.* PackageFiles/jre
+if [ ! -e PackageFiles/jre ]; then
+    tar -xvzf jre-8u*-windows-x64.tar.gz
+    mv jre1.8.* PackageFiles/jre
+fi
 
 export WINDOWSSDK="/mnt/c/Program Files (x86)/Windows Kits/10/bin/10.0.15063.0/x64"
 
